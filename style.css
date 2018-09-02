@@ -2,33 +2,11 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	opacity: 0%;
-	animation: loading 2s;
-}
-@keyframes loading {
-   0%  {opacity:0;}
-   100% {opacity:1;}
-}
-@-moz-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
-}
-@-webkit-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
-}
-@-o-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
-}
-@-ms-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
 }
 h1 {
-	font-family: 'Roboto Thin','Roboto' , sans-serif;
+	font-family: 'Google Sans', sans-serif;
 }
-input[type=url] {
+input[type=text] {
 	font-family: 'Roboto', sans-serif;
     padding: 8px;
     margin: 8px;
@@ -36,40 +14,36 @@ input[type=url] {
 	border: none;
     border-bottom: 2px solid #EEE;
     border-radius: 0;
-	transition: all 0.3s;
+	transition: all 0.2s;
 }
-input[type=url]:hover {
+input[type=text]:hover {
 	border-bottom: 2px solid #CCC;
 }
-input[type=url]:focus {
+input[type=text]:focus {
 	outline: none;
-	border-bottom: 2px solid #0091EA;
+	border-bottom: 2px solid #2196F3;
 }
 input[type=submit] {
-	font-family: 'Roboto' , sans-serif;
-	font-weight: 600;
-	text-transform: uppercase;
-    background-color: #4CAF50;
+	font-family: 'Roboto Medium', 'Roboto', sans-serif;
+	font-size: 14px;
+    background-color: #2196F3;
     color: white;
-    padding: 8px;
+    padding: 6px 10px;
     margin: 8px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
-	transition: background-color 0.3s;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	transition: box-shadow 0.2s, background-color 0.2s;
 }
 input[type=submit]:hover {
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	
+	box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+	background-color: #42A5F5;
 }
 input[type=submit]:focus {
 	outline: none;
-	background-color: #1B5E20;
+	background-color: #64B5F6;
 }
 input[name=sa] {
 	hidden=hidden;
-}
-::-webkit-input-placeholder {
 }
