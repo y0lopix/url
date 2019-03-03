@@ -5,6 +5,7 @@ body {
 }
 h1 {
 	font-family: 'Google Sans', sans-serif;
+	font-weight: normal;
 }
 input[type=text] {
 	font-family: 'Roboto', sans-serif;
